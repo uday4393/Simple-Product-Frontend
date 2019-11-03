@@ -7,7 +7,7 @@ import { Product } from './product';
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = 'http://localhost:4000/api/v1/products';
+const apiUrl = 'https://boiling-savannah-78777.herokuapp.com' + '/api/v1/products';
 @Injectable({
   providedIn: 'root'
 })
