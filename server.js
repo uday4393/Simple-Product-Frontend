@@ -11,6 +11,6 @@ app.get('/*', function(req,res) {
 
 res.sendFile(path.join(__dirname+'/dist/angular8-crud/index.html'));
 });
-
+console.log('Server started at 4200');
 // Start the app by listening on the default Heroku port
 app.listen(process.env.PORT || 4200);
