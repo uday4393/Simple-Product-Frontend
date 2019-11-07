@@ -7,7 +7,7 @@ import { Product } from './product';
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = 'https://product-backend.herokuapp.com/' + '/api/v1/products';
+const apiUrl = 'https://product-backend.herokuapp.com' + '/api/v1/products';
 @Injectable({
   providedIn: 'root'
 })
